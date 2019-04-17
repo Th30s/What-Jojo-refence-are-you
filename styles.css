@@ -1,0 +1,36 @@
+body {
+    font-family: "Bree Serif", sans-serif;
+    background-color: yellow;
+}
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #bbffff;
+    border-radius: 20px;
+    background-color: green;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+
+.container:hover {
+    background-color: red;
+    border-color: #696969;
+}
+.results:hover {
+    background-color:blue;
+    border-color:pink;
+    color:red;
+    }
+img:hover {
+    border-style: inset;
+    border-width: 10px;
+    border-color: lightblue;
+    }    
+html {
+    text-align:center;
+    }    
